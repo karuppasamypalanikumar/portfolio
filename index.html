@@ -4,7 +4,128 @@
     <title> 
       Karuppasamy Portfolio - Home
     </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Caveat', cursive;
+      }
+
+      .header ol {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        list-style-type: none;
+      }
+
+      .header ol li {
+        padding: 10px;
+        margin: 5px;
+      }
+
+      .header ol li a{
+          text-decoration: none;
+          color: white;
+          background-color: black;
+          border-radius: 8px;
+          padding: 10px;
+          font-size: 1.25rem;
+          box-shadow: 3px -3px rgb(115, 114, 114);
+          transition: 1s;
+      }
+
+      .header ol li a:hover {
+        box-shadow: 0px 0px #fff;
+        background-color: #000000aa;
+      }
+      
+      #personal_detials, #educational_details, #project_details {
+        width: 100vw;
+        min-height: 100vh;
+      }
+
+
+      #personal_detials .sub_header , #educational_details .sub_header , #project_details .sub_header {
+          display: flex;
+          justify-content: space-between;
+          padding: 20px 20px;
+      }
+
+      #personal_detials .sub_header h1, #educational_details .sub_header h1, #project_details .sub_header h1 {
+          text-align: center;
+      }
+
+      #personal_detials .sub_header a img, #educational_details .sub_header a img, #project_details .sub_header a img {
+          height: 30px;
+          width: 30px;
+          background-color: white;
+          border-radius: 50%;
+          box-shadow: 2px 2px gray;
+      }
+
+      #personal_detials {
+        background-color: #b6f2c6;
+      }
+
+      #educational_details {
+        background-color: #9cade6;
+      }
+
+      #project_details {
+        background-color: #d9a3e3;
+      }
+    </style>
+    <!-- Primary Meta Tags -->
+  <title>Meta Tags — Preview, Edit and Generate</title>
+  <meta name="title" content="Meta Tags — Preview, Edit and Generate">
+  <meta name="description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://metatags.io/">
+  <meta property="og:title" content="Meta Tags — Preview, Edit and Generate">
+  <meta property="og:description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!">
+  <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://metatags.io/">
+  <meta property="twitter:title" content="Meta Tags — Preview, Edit and Generate">
+  <meta property="twitter:description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!">
+  <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
   </head>
   <body>
+    <div class="header">
+        <ol>
+            <li><a href="#personal_detials">Personal Details</a></li>
+            <li><a href="#educational_details">Educational Details</a></li>
+            <li><a href="#project_details">Project Details</a></li>
+        </ol>
+    </div>
+    <div id="personal_detials">
+      <div class="sub_header">
+        <h1>Personal Details</h1>
+        <a href="#"><img src="https://img.icons8.com/bubbles/100/null/up.png" alt="up"></a>
+      </div>
+        <p><em>Name: </em> <b style="color: blue;">Karuppasamy</b></p>
+        <p><em>Father Name: </em><b style="color: blue;">Palanikumar</b></p>
+        <p><em>Gender: </em><b style="color: blue;">Male</b></p>
+    </div>
+    <div id="educational_details">
+      <div class="sub_header">
+        <h1>Educational Details</h1>
+        <a href="#"><img src="https://img.icons8.com/bubbles/100/null/up.png" alt="up"></a>
+      </div>
+    </div>
+    <div id="project_details">
+      <div class="sub_header">
+        <h1>Project Details</h1>
+        <a href="#"><img src="https://img.icons8.com/bubbles/100/null/up.png" alt="up"></a>
+      </div>
+    </div>
   </body>
 </html>
